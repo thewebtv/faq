@@ -39,3 +39,9 @@ You can play .mp3, .m4a, .wav, and .aac audio files, and .mp4, .mov, .m4v, and .
 
 ## How does live TV work?
 Live TV works by using HLS-based IPTV services to provide a constant video stream. We use streams directly from channels, or trusted third-parties and streaming apps, like Samsung TV, Tubi, Xumo, and Roku.
+
+## What does ALG mean?
+ALG refers to a connection with no audio, such as raw video in, or VGA.
+
+> [!WARNING]
+> Sometimes, Windows will display devices with audio output, like capture cards, as "ALG". This is a Windows glitch. We recommend using Chrome on Linux. It works especially well on chromeOS (wonder why?) or Raspberry Pi OS.
